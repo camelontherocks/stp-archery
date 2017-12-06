@@ -12,12 +12,12 @@
 
 header h1 {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 2.2em;
+  font-size: 5vmin;
 }
 
 div.row {
   
-  width: 90%
+  width: 90%;
   margin: auto;
   text-align: center;
 }
@@ -34,15 +34,28 @@ div[class^='col_'] {
   border: 10px solid white;
 }
 
-div.col_1_of_3 {width: 31%;}
+div.col_1_of_3 {
+  width: 31%;
+  max-width: 400px;
+  min-width: 60px;
+
+}
 
 div h2 {
-  font-size: 1.7em;
+  font-size: 4vmin;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
 div p {
-  font-size: 1.3em;
+  font-size: 3vmin;
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+div img {
+
+  width: 100%;
+  height: auto;
+
 }
 </style>
