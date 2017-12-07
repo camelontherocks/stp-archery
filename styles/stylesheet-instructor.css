@@ -1,8 +1,8 @@
 <style>
 
-
 article.instructor { 
   margin: 0 auto;
+  clear: both;
   padding: 0;
   box-sizing: border-box; 
 }
