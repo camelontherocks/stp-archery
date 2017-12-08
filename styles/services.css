@@ -11,7 +11,8 @@
 
 .mainNav a {
   text-align: center;
-  font-size: 3vh;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.25vh;
   margin-top: 5.1%;
   text-decoration: none;
   color: black;
@@ -21,13 +22,11 @@
   clear: both;
   text-align: center;
   font-size: 6vh;
-  margin: 0px 0px 10px 0px;
+  font-family: 'Source Sans Pro', sans-serif;
   color: #db3421;
-  font-family: sans-serif;
-  letter-spacing: 1.4px;
-  font-size: 2.2em;
-  text-align: center;
+  margin-bottom: 5%;
 }
+
 
 a img {
   height: 80px;
@@ -61,13 +60,16 @@ i {
   margin: 0px 9px 18px 9px;
 }
 
+footer {
+  clear: both;
+}
 footer #footerNav {
   text-align: center;
-  clear: both;
 }
 footer p, footer p a {
   text-align: center;
   font-size: 1.75vh;
+  font-family: 'Source Sans Pro', sans-serif;
   text-decoration: none;
   color: black;
 }
