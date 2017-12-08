@@ -28,11 +28,13 @@ a img {
   height: 80px;
 }
 
-h1 {
+#mainHeader {
   color: #db3421;
-  margin: 0px 0px 20px 0px;
+  margin: 0px 270px 20px 0px;
   font-family: sans-serif;
   letter-spacing: 1.4px;
+  font-size: 2.2em;
+  text-align: center;
 }
 
 figure img {
@@ -46,13 +48,13 @@ h3 {
   text-align: center;
   margin: 5px 0px 10px 0px;
   font-weight: normal;
-  font-size: 22px;
+  font-size: 1.7em;
 }
 
 p {
   font-family: sans-serif;
   text-align: justify;
-  font-size: 16px;
+  font-size: 1.3em;
   margin: 0px 0px 40px 0px;
   padding: 0px 6px 0px 6px;
   line-height: 17px;
