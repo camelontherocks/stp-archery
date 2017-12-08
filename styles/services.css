@@ -22,20 +22,17 @@
   text-align: center;
   font-size: 6vh;
   margin: 0px 0px 10px 0px;
+  color: #db3421;
+  font-family: sans-serif;
+  letter-spacing: 1.4px;
+  font-size: 2.2em;
+  text-align: center;
 }
 
 a img {
   height: 80px;
 }
 
-#mainHeader {
-  color: #db3421;
-  margin: 0px 270px 20px 0px;
-  font-family: sans-serif;
-  letter-spacing: 1.4px;
-  font-size: 2.2em;
-  text-align: center;
-}
 
 figure img {
   height: 190px;
