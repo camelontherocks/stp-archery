@@ -6,49 +6,56 @@ body {
       margin: 0;
       padding: 0;
 }
+.content-wrapper {
+                  width:80%;
+                  margin:auto;
+}
 
 
 h1 {
     text-align:center;
     font-family: "Cairo", sans-serif; 
     font-size: 3rem;
+    padding: inherit;
+    margin: auto;
     }
 
-.left {
-         float: left;
-         width: 32vh;
-         padding: 2vh;
-}
-  
-.middle {
-            float: left;
-            width: 60vh;
-            padding: 2vh;
-}
-.right {
-            float: right;
-            width: 32vh; 
-            padding: 2vh;
-}
-
-p {
-  font-family:'Roboto Condensed', sans-serif;
-  font-size: 1rem;
-  text-align:left;
+.clearfix:after {
+  content: "";    
+  display: block;    
+  clear: all; 
 }
 
 h2 {
   font-family: 'Roboto Condensed', sans-serif;
   text-align:center;
-  font-size: 2rem
-} 
+  font-size: 2rem;
+  padding: 1em;
+  margin: 1em;
+}
 
+section {
+        width:42vh;
+        float:left;
+        display:inline;
+        padding:1em;
+        margin:1em;
+        
+}
 img { 
-      width: 30vh;
-      height: 30vh;
+      width: 42vh;
+      height: 42vh;
+ 
 }
-.bottom {
-  position:absolute;
-  width: auto
-  bottom: 0px
+
+
+p {
+  font-family:'Roboto Condensed', sans-serif;
+  font-size: 1rem;
+  text-align:center;
+  padding:.25em;
+  margin: 1em;
 }
+
+
+
