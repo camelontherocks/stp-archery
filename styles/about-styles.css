@@ -57,5 +57,14 @@ p {
   margin: 1em;
 }
 
+aside {
+  clear:both;
+}
+
+
+footer {
+  clear:both;
+}
+
 
 
