@@ -1,7 +1,11 @@
+
+/* Content wrapper for all html pages */
 .content-wrapper {
   width: 80%;
   margin: auto;
 }
+
+/* Reusable code for all headers and footers */
 .mainNav a {
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
@@ -31,6 +35,8 @@ footer p, footer p a {
   text-decoration: none;
   color: black;
 }
+
+/* Set the colors of the company logos */
 .fa-facebook-square {
     color: #3b5998;
 }
@@ -41,32 +47,7 @@ footer p, footer p a {
   color: black; 
 }
 
-#blogContent {
-  align-content: center;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-#blogContent p {
-  text-align: left;
-  padding-top: 3%;
-}
-
-#blogContent h2 {
-  color: #2880b8;
-  text-align: center;
-}
-
-#blogContent article {
-  border: 1px black solid;
-  text-align: center;
-  padding: 1%;
-}
-
-#blogContent article img {
-  width: 85%;
-}
-
-
+/* Code for responsive grids.  Remove the classes not in use on these pages (e.g. span_3_of_7).  Group of 7 is in use on all site headers while group of 3 is used by the blog specifically */ 
 
 /*  SECTIONS  */
 .section {
@@ -89,25 +70,6 @@ footer p, footer p a {
 .group:after { clear:both;}
 .group { zoom:1; /* For IE 6/7 */ }
 /*  GRID OF SEVEN  */
-.span_7_of_7 {
-	width: 100%;
-}
-
-.span_6_of_7 {
-  	width: 85.57%;
-}
-
-.span_5_of_7 {
-  	width: 71.14%;
-}
-
-.span_4_of_7 {
-  	width: 56.71%;
-}
-
-.span_3_of_7 {
-  	width: 42.28%;
-}
 
 .span_2_of_7 {
   	width: 27.85%;
@@ -118,14 +80,11 @@ footer p, footer p a {
   border-bottom: 1px black solid;
 }
 
-.span_3_of_3 { width: 100%; }
-.span_2_of_3 { width: 66.33%; }
-.span_1_of_3 { width: 30%; }
-
-/*  GO FULL WIDTH BELOW 480 PIXELS */
+/*  GO FULL WIDTH BELOW 720 PIXELS and change some formating when on mobile */
 @media only screen and (max-width: 720px) {
   .col {  margin: 1% 0 1% 0%; }
-  .span_1_of_7, .span_2_of_7, .span_3_of_7, .span_4_of_7, .span_5_of_7, .span_6_of_7, .span_7_of_7, .span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+  .span_1_of_7, .span_2_of_7{ width: 100%; }
+
   .mainNav a {font-size: 4vh;}
   .span_1_of_7 {border: none;}
 }
