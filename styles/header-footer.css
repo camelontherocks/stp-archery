@@ -47,8 +47,6 @@ footer p, footer p a {
   color: black; 
 }
 
-
-
 /* Code for responsive grids.  Remove the classes not in use on these pages (e.g. span_3_of_7).  Group of 7 is in use on all site headers while group of 3 is used by the blog specifically */ 
 
 /*  SECTIONS  */
@@ -86,6 +84,7 @@ footer p, footer p a {
 @media only screen and (max-width: 720px) {
   .col {  margin: 1% 0 1% 0%; }
   .span_1_of_7, .span_2_of_7{ width: 100%; }
+
   .mainNav a {font-size: 4vh;}
   .span_1_of_7 {border: none;}
 }
