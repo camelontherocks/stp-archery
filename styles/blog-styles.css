@@ -1,0 +1,59 @@
+/* Code for the blog page specifically, using ids specific to blog page to avoid conflicts with other code */
+
+#blogContent {
+  align-content: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#blogContent p {
+  text-align: left;
+  padding-top: 3%;
+}
+
+#blogContent h2 {
+  color: #2880b8;
+  text-align: center;
+}
+
+#blogContent article {
+  border: 1px black solid;
+  text-align: center;
+  padding: 1%;
+}
+
+#blogContent article img {
+  width: 85%;
+}
+
+/* Code for responsive grids.  Remove the classes not in use on these pages (e.g. span_3_of_7).  Group of 7 is in use on all site headers while group of 3 is used by the blog specifically */ 
+
+/*  SECTIONS  */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+.span_1_of_3 { 
+  width: 30%;
+}
+
+/*  GO FULL WIDTH BELOW 720 PIXELS and change some formating when on mobile */
+@media only screen and (max-width: 720px) {
+  .col {  margin: 1% 0 1% 0%; }
+  .span_1_of_3 { width: 100%; }
+}
