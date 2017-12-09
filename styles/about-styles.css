@@ -10,8 +10,6 @@ body {
                   width:80%;
                   margin:auto;
 }
-
-
 h1 {
     text-align:center;
     font-family: "Source Sans Pro", sans-serif;
@@ -20,7 +18,28 @@ h1 {
     font-size: 3rem;
     padding: inherit;
     margin: auto;
-    }
+}
+
+
+.rowAbout::after {
+              content: "";
+              clear: both;
+              display: table;
+}
+.colAbout-1 {width:33.33%;}
+.colAbout-2 {width:66.66%;}
+.colAbout-3 {width:99.99%;}
+
+[class*="colAbout-"] {
+        width:42vh;
+        float:left;
+        display:inline;
+        padding:1em;
+        margin:1em;
+}
+
+
+
 
 .clearfix:after {
   content: "";    
@@ -36,14 +55,6 @@ h2 {
   margin: .5em;
 }
 
-section {
-        width:42vh;
-        float:left;
-        display:inline;
-        padding:1em;
-        margin:1em;
-        
-}
 #aboutphoto { 
       width: 42vh;
       height: 42vh;
@@ -51,7 +62,7 @@ section {
 }
 
 
-p {
+.mainAbout {
   font-family:'Source Sans Pro', sans-serif;
   font-size: 1rem;
   text-align:left;
@@ -61,7 +72,7 @@ p {
   margin-top: 2em
 }
 
-aside {
+.asideAbout {
   clear:both;
 }
 
