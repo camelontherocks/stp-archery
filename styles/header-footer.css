@@ -1,10 +1,15 @@
+
+/* Content wrapper for all html pages */
 .content-wrapper {
   width: 80%;
   margin: auto;
 }
+
+/* Reusable code for all headers and footers */
 .mainNav a {
   text-align: center;
-  font-size: 3vh;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.25vh;
   margin-top: 5.1%;
   text-decoration: none;
   color: black;
@@ -13,6 +18,12 @@
   clear: both;
   text-align: center;
   font-size: 6vh;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #db3421;
+  margin-bottom: 5%;
+}
+footer {
+  clear: both;
 }
 footer #footerNav {
   text-align: center;
@@ -20,9 +31,12 @@ footer #footerNav {
 footer p, footer p a {
   text-align: center;
   font-size: 1.75vh;
+  font-family: 'Source Sans Pro', sans-serif;
   text-decoration: none;
   color: black;
 }
+
+/* Set the colors of the company logos */
 .fa-facebook-square {
     color: #3b5998;
 }
@@ -32,6 +46,9 @@ footer p, footer p a {
 .fa-instagram { 
   color: black; 
 }
+
+/* Code for responsive grids.  Remove the classes not in use on these pages (e.g. span_3_of_7).  Group of 7 is in use on all site headers while group of 3 is used by the blog specifically */ 
+
 /*  SECTIONS  */
 .section {
 	clear: both;
@@ -53,25 +70,6 @@ footer p, footer p a {
 .group:after { clear:both;}
 .group { zoom:1; /* For IE 6/7 */ }
 /*  GRID OF SEVEN  */
-.span_7_of_7 {
-	width: 100%;
-}
-
-.span_6_of_7 {
-  	width: 85.57%;
-}
-
-.span_5_of_7 {
-  	width: 71.14%;
-}
-
-.span_4_of_7 {
-  	width: 56.71%;
-}
-
-.span_3_of_7 {
-  	width: 42.28%;
-}
 
 .span_2_of_7 {
   	width: 27.85%;
@@ -82,10 +80,11 @@ footer p, footer p a {
   border-bottom: 1px black solid;
 }
 
-/*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
+/*  GO FULL WIDTH BELOW 720 PIXELS and change some formating when on mobile */
+@media only screen and (max-width: 720px) {
   .col {  margin: 1% 0 1% 0%; }
-  .span_1_of_7, .span_2_of_7, .span_3_of_7, .span_4_of_7, .span_5_of_7, .span_6_of_7, .span_7_of_7 { width: 100%; }
-  #mainNav a {font-size: 2em;}
+  .span_1_of_7, .span_2_of_7{ width: 100%; }
+
+  .mainNav a {font-size: 4vh;}
   .span_1_of_7 {border: none;}
 }

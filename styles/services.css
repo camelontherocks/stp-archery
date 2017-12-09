@@ -1,0 +1,161 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content-wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.2em;
+}
+
+figure img {
+  height: 190px;
+  margin: 0px 20px 0px 10px;
+  padding: 0px 50px 0px 18px;
+  width: 100%;
+}
+
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  margin: 5px 0px 10px 0px;
+  font-weight: normal;
+  font-size: 1.7em;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: justify;
+  font-size: 1.3em;
+  margin: 0px 0px 40px 0px;
+  padding: 0px 6px 0px 6px;
+  line-height: 17px;
+}
+
+i {
+  margin: 0px 9px 18px 9px;
+}
+
+footer {
+  clear: both;
+}
+footer #footerNav {
+  text-align: center;
+}
+footer p, footer p a {
+  text-align: center;
+  font-size: 1.75vh;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+.fa-facebook-square {
+    color: #3b5998;
+}
+.fa-twitter-square {
+    color: #00aced;
+}
+.fa-instagram { 
+  color: black; 
+}
+
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0% 1% 1%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+
+/*  GRID OF SEVEN  */
+.span_7_of_7 {
+	width: 100%;
+}
+
+.span_6_of_7 {
+  	width: 85.57%;
+}
+
+.span_5_of_7 {
+  	width: 71.14%;
+}
+
+.span_4_of_7 {
+  	width: 56.71%;
+}
+
+.span_3_of_7 {
+  	width: 42.28%;
+}
+
+.span_2_of_7 {
+  	width: 27.85%;
+}
+
+.span_1_of_7 {
+  width: 13.42%;
+  border-bottom: 1px black solid;
+}
+
+/* Every row is 90% as wide as it's parent, the <article> */
+
+figure.row {
+  width: 90%;
+  margin: auto;
+}
+
+/* clearfix styles to keep the row figures from collapsing, since all their children are floated */
+figure.row:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+/* this selector selects all figures that have a class name beginning with 'col2_'
+
+^ = means it is the regular expression syntax, another way of saying "starts with this string" */
+
+figure[class^='col2_'] {
+  float: left;
+  background-color: white;
+  border: 2px solid white;
+}
+
+figure.col2_1_of_3 {
+  width: 32.9%;
+}
+figure.col2_1_of_2 {
+  width: 50%;
+}
+figure.col2_1_of_4 {
+  width: 25%;
+}
+figure.col2_3_of_4 {
+  width: 75%;
+}
+
+
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  .col {  margin: 1% 0 1% 0%; }
+  .span_1_of_7, .span_2_of_7, .span_3_of_7, .span_4_of_7, .span_5_of_7, .span_6_of_7, .span_7_of_7 { width: 100%; }
+  #mainNav a {font-size: 2em;}
+  .span_1_of_7 {border: none;}
+}

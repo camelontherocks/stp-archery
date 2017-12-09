@@ -4,16 +4,19 @@
 <head lang="en">
   <meta charset="UTF-8">
   <title>Blog</title>
+  <!-- Reference internal and external (Google Fonts and Font Awesome) styles -->
   <link rel="stylesheet" type="text/css" href="styles/meyer-reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,900" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
   <link rel="stylesheet" type="text/css" href="styles/header-footer.css">
+  <link rel="stylesheet" type="text/css" href="styles/blog-styles.css">
 </head>
   
 <body>
+  <!-- Set a margin on left and right of the content area -->
   <article class="content-wrapper">
     <header>
-      <!-- Logo and Nav will appear on the same "line", Header will appear below -->
+      <!-- Logo and Nav will appear on the same "line", Header will appear below.  The logo and nav bar use responsive grids -->
       <a href="index.html"><img src="images/stplogo.jpg" alt="STP Archery Logo" id="logo" class="col span_2_of_7"></a> <!-- Make Logo Clickable and return to homepage -->
       <!-- Main navigation -->
         <nav class="mainNav">
@@ -31,44 +34,47 @@
 
     <!-- Group all blog posts into one section that acts as a container -->
     <Section id="blogContent">
-      <h2>Posts</h2>
-      <article>
-        <h3>Blog Post 1</h3>
-        <!-- Need to format images so that they don't take up the entire page but have a consistent size -->
-        <img src="images/class1.jpg" alt="Class Image 1">
-        <p>lorem ipsum...</p>
+      <h2>Recent Posts</h2>
+      <!-- Each blog post is completely contained within an article so that the content stays together when screen size changes-->
+      <article class="col span_1_of_3">
+        <h3>US Olympic Team Trials </h3>
+
+        <img src="images/students-competing.jpg" alt="Students Completing">
+        <p>So proud of all of our participants in the archery competition over the weekend.  Everyone has come such a long way from when they first picked up a bow in our introductory class.  </p>
         <!-- Comment section should appear in the same content area as associated post but slightly indented -->
         <article>
           <h4>Comments</h4>
-          <p>Comment Here</p>
+          <p>Thank you so much Giap, without you I would not be where I am today. This opportunity to qualify for the Olympics is truly unbelievable.</p>
         </article>
       </article>
-      <article>
-        <h3>Blog Post 2</h3>
-        <img src="images/class2.jpg" alt="Class Image 2">
-        <p>lorem ipsum...</p> 
+      <article class="col span_1_of_3">
+        <h3>Learning the Basics</h3>
+        <img src="images/class1.jpg" alt="Class Image 1">
+        <p>Some of our younger students learn the basics of archery. With hard work and dedication they can become archery masters!</p> 
         <article>
           <h4>Comments</h4>
-          <p>Comment Here</p>
+          <p>No one has left a comment on this post</p>
         </article>
       </article>
-      <article>
-        <h3>Blog Post 3</h3>
-        <p>lorem ipsum...</p>
+      <article class="col span_1_of_3">
+        <h3>Open for Business!</h3>
+        <img src="images/founder.jpg" alt="STP Founder">
+        <p>It has always been a dream of mine to open an archery school and pass on what I have learned to future generations.  If you are an avid archer already or just getting started we offer a variety of class and private lessons to meet your needs.  Check out the services page for more details!</p>
         <article>
           <h4>Comments</h4>
-          <p>Comment Here</p>
+          <p>I am very excited to take my first class next week Giap!</p>
+          <p>I have always wanted to get into archery, looking forward to learning about sport. </p>
         </article>
       </article>
     </Section>
     <footer>
-      <!-- Social Media Links -->
+      <!-- Social Media Links (images using font awesome) -->
       <nav id="footerNav">
         <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
         <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
         <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
       </nav>
-      <!-- Email and Phone Number on click will automatically open a new email or start a phone call respectively -->
+      <!-- Email and Phone Number on click will automatically open a new email or start a phone call (assuming the client is a mobile device) respectively  -->
       <p>Straight to the Point Archery | 528 Nock Point Ln Tacoma, WA 98412 | <a href="mailto:archery-education@example.com">archery-education@example.com</a> | <a href="tel:(253)555-1010">(253) 555-1010</a></p>
     </footer>
   </article>
