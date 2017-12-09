@@ -22,7 +22,7 @@ figure img {
 }
 
 h3 {
-  font-family: sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
   margin: 5px 0px 10px 0px;
   font-weight: normal;
@@ -30,7 +30,7 @@ h3 {
 }
 
 p {
-  font-family: sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   text-align: justify;
   font-size: 1.3em;
   margin: 0px 0px 40px 0px;
