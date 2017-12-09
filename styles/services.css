@@ -9,35 +9,16 @@
   margin: auto;
 }
 
-.mainNav a {
-  text-align: center;
-  font-size: 3vh;
-  margin-top: 5.1%;
-  text-decoration: none;
-  color: black;
-}
-
-#pageHeader {
-  clear: both;
-  text-align: center;
-  font-size: 6vh;
-  margin: 0px 0px 10px 0px;
-  color: #db3421;
-  font-family: sans-serif;
-  letter-spacing: 1.4px;
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 2.2em;
-  text-align: center;
 }
-
-a img {
-  height: 80px;
-}
-
 
 figure img {
   height: 190px;
   margin: 0px 20px 0px 10px;
   padding: 0px 50px 0px 18px;
+  width: 100%;
 }
 
 h3 {
@@ -61,13 +42,16 @@ i {
   margin: 0px 9px 18px 9px;
 }
 
+footer {
+  clear: both;
+}
 footer #footerNav {
   text-align: center;
-  clear: both;
 }
 footer p, footer p a {
   text-align: center;
   font-size: 1.75vh;
+  font-family: 'Source Sans Pro', sans-serif;
   text-decoration: none;
   color: black;
 }
@@ -154,7 +138,7 @@ figure[class^='col2_'] {
 }
 
 figure.col2_1_of_3 {
-  width: 33.3333%;
+  width: 32.9%;
 }
 figure.col2_1_of_2 {
   width: 50%;
