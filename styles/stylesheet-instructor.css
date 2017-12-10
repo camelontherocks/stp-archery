@@ -7,11 +7,6 @@ article.instructor {
   box-sizing: border-box; 
 }
 
-h1 {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 2.2em;
-}
-
 div.instrow {
   clear: both;
   width: 90%;
@@ -43,13 +38,17 @@ div.instcol_1_of_3 img {
 }
 
 div h2 {
-  font-size: 1.7em;
+  font-size: 1.5em;
   font-family: 'Source Sans Pro', sans-serif;
+  color: #2880b8;
+  
 }
 
 div p {
-  font-size: 1.3em;
+  font-size: 1em;
   font-family: 'Source Sans Pro', sans-serif;
+  margin-bottom: 1em;
+  text-align: left;
 }
 
 

@@ -13,16 +13,24 @@
 #blogContent h2 {
   color: #2880b8;
   text-align: center;
+  font-size: 1.5em;
 }
 
 #blogContent article {
-  border: 1px black solid;
+ /* border: 1px black solid;*/
   text-align: center;
   padding: 1%;
 }
 
 #blogContent article img {
-  width: 85%;
+  width: 100%;
+}
+h3 {
+  padding: 10px 0px;
+}
+h4 {
+  padding: 20px 0px 0px 0px;
+  text-decoration-line: overline;
 }
 
 /* Code for responsive grids.  Remove the classes not in use on these pages (e.g. span_3_of_7).  Group of 7 is in use on all site headers while group of 3 is used by the blog specifically */ 

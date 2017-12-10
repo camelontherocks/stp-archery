@@ -1,81 +1,69 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
-      margin: 0;
-      padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
 }
-.content-wrapper {
-                  width:80%;
-                  margin:auto;
-}
-h1 {
-    text-align:center;
-    font-family: "Source Sans Pro", sans-serif;
-    color: #db3421;
-    background-color: white;
-    font-size: 2.5rem;
-    padding: inherit;
-    margin: auto;
-}
-
 
 .rowAbout::after {
-              content: "";
-              clear: both;
-              display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 .colAbout-1 {width:33.33%;}
-.colAbout-2 {width:66.66%;}
-.colAbout-3 {width:99.99%;}
+.colAbout-2 {width:33.33%;}
+.colAbout-3 {width:33.33%;}
 
 [class*="colAbout-"] {
-        width:42vh;
-        float:left;
-        display:inline;
-        padding:1em;
-        margin:1em;
+  width:31%;
+  float:left;
+  display:inline;
+  padding: .5em;
+       
+       
+        
 }
 
 
 .clearfix:after {
   content: "";    
   display: block;    
-  clear: all; 
+  clear: both; 
 }
 
 h2 {
   font-family: 'Source Sans Pro', sans-serif;
-  text-align:left;
-  font-size: 1.3rem;
+  color: #2880b8;
+  text-align: center;
+  font-size: 1.5em;
   padding: .5em;
-  margin: 1.3em;
+  /*margin: 1.3em;*/
 }
 
 .aboutphoto { 
-      width: 42vh;
-      height: 42vh;
+  width: 100%;
+  text-align: center;
  
 }
+figcaption {
+  text-align: left;
+}
 .Aboutlink {
-      color:#db3421;
-      background-color: white;
+  color:#db3421;
+  background-color: white;
       
 }
 
 .mainAbout {
   font-family:'Source Sans Pro', sans-serif;
   font-size: 1rem;
-  text-align:left;
+  text-align: left;
   padding: 1em;
-  margin-left: 1.25em;
-  margin-right: .5em;
-  margin-top: 2em
+  /*margin-left: .2em;
+  margin-right: .2em;*/
+  /*margin-top: 2em;*/
 }
 
 .asideAbout {
   clear:both;
+  padding: 20px;
 }
 
 
