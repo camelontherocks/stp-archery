@@ -1,4 +1,4 @@
-* {
+/** {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
@@ -9,54 +9,34 @@
   margin: auto;
 }
 
-h1 {
+h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 2.2em;
-}
+}*/
 
 figure img {
   height: 190px;
-  margin: 0px 5px 0px 10px;
+  margin: 0px 5px 0px 5px;
   padding: 0px 35px 0px 10px;
-  width: 100%;
+  width: 90%;
+  height: 90%;
 }
 
-h3 {
+h2 {
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
-  margin: 5px 0px 10px 0px;
-  font-weight: normal;
-  font-size: 1.7em;
+  margin: 0px 0px 5px 0px;
+  font-size: 1.5em;
+  color: #2880b8;
+  padding: .5em;
 }
 
 p {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.3em;
-  margin: 0px 0px 40px 0px;
-  padding: 10px 6px 0px 6px;
-}
-
-footer {
-  clear: both;
-}
-footer #footerNav {
-  text-align: center;
-}
-footer p, footer p a {
-  text-align: center;
-  font-size: 1.75vh;
-  font-family: 'Source Sans Pro', sans-serif;
-  text-decoration: none;
-  color: black;
-}
-.fa-facebook-square {
-    color: #3b5998;
-}
-.fa-twitter-square {
-    color: #00aced;
-}
-.fa-instagram { 
-  color: black; 
+  font-size: 1em;
+  /*margin: 0px 0px 40px 0px;*/
+  margin: 6px 6px;
+  padding: 6px 6px 0px 6px;
 }
 
 
@@ -110,7 +90,7 @@ footer p, footer p a {
 /* Every row is 90% as wide as it's parent, the <article> */
 
 figure.row {
-  width: 90%;
+  width: 100%;
   margin: auto;
 }
 
@@ -127,8 +107,8 @@ figure.row:after {
 
 figure[class^='col2_'] {
   float: left;
-  background-color: white;
-  border: 2px solid white;
+  /*background-color: white;
+  border: 2px solid white;*/
 }
 
 figure.col2_1_of_3 {
