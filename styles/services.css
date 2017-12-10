@@ -31,11 +31,9 @@ h3 {
 
 p {
   font-family: 'Source Sans Pro', sans-serif;
-  text-align: justify;
   font-size: 1.3em;
   margin: 0px 0px 40px 0px;
-  padding: 0px 6px 0px 6px;
-  line-height: 17px;
+  padding: 10px 6px 0px 6px;
 }
 
 footer {
